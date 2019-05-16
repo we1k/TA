@@ -47,7 +47,7 @@ void ugly::create(){
 	}
 	if (!this->IsRepeated(c)){
 		int tep = size;
-		while(a<ugly_num[tep]){
+		while(c<ugly_num[tep]){
 			ugly_num[tep+1]=ugly_num[tep];
 			tep--;
 		}
@@ -66,7 +66,7 @@ int main (){
 	for (int i=1;i<n;i++){
 		la.create();
 	}
-	for (int i = 1; i < n; i++ ){
+	for (int i = 1; i <= n; i++ ){
 	cout<<la.Get(i)<<"  ";
 	} 
 	return 0;
