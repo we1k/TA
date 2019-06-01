@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio.h>  //w
 #include <string.h>
 char *s="QWERTYUIOP{|ASDFGHJKL:ZXCVBNNM<>?";
 int main () {
